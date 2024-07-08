@@ -8,6 +8,7 @@ const ProductList = () => {
   const { products, state } = useAppSelector((state) => state.productListState)
   const [current, setCurrent] = useState<number>(1)
   const onChange = (page: number) => {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
     setCurrent(page)
   }
 
