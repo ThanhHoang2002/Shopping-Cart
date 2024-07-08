@@ -1,0 +1,33 @@
+.dark .ant-breadcrumb .ant-breadcrumb-separator {
+  color: white;
+}
+.ant-drawer-content-wrapper {
+  background-color: #f0f2f5;
+  width: 65% !important;
+}
+.ant-breadcrumb a:hover {
+  color: white;
+}
+.dark .ant-pagination .ant-pagination-item a{
+  color: white;
+  
+}
+.dark .ant-pagination .ant-pagination-item-active a{
+  background-color: black;
+  color: #1677ff;
+  border-radius: 5px;
+}
+.dark .ant-pagination .ant-pagination-next button{
+  color: white;
+}
+.dark .ant-pagination .ant-pagination-prev button{
+  color: white;
+}
+.dark  .ant-pagination-disabled .ant-pagination-item-link {
+  color: rgb(156, 154, 154) !important;
+  cursor: not-allowed;
+}
+.dark .ant-pagination-disabled:hover .ant-pagination-item-link {
+  color: rgb(156, 154, 154);
+  cursor: not-allowed;
+}
